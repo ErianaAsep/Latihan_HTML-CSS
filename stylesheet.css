@@ -1,0 +1,193 @@
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/*Bagian Header*/
+.header {
+  background-color: #454545;
+  color: #fff;
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-family: sans-serif;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 40px;
+  font-weight: bold;
+  letter-spacing: 7px;
+}
+
+.header-list li {
+  float: left;
+  padding: 22px 20px;
+}
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 33px 50px;
+  display: none;
+}
+
+/*Bagian Main*/
+.main {
+  padding: 100px 80px;
+  font-family: sans-serif;
+}
+
+.copy-container h1 {
+  font-size: 140px;
+  text-align: center;
+  color: #454545;
+}
+
+.copy-container h2 {
+  font-size: 60px;
+  font-weight: lighter;
+  text-align: center;
+  color: #b3aeb5;
+}
+
+.copy-container span {
+  color: yellow;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.logo {
+  width: 25%;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+/*Bagian Tentang Saya*/
+.message-wrapper {
+  padding-bottom: 40px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  font-family: sans-serif;
+}
+
+.heading {
+  text-align: center;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.heading h3 {
+  font-weight: lighter;
+}
+
+/*Bagian Proyek*/
+.lesson-wrapper {
+  display: flex;
+}
+
+.lesson {
+  flex: auto;
+  float: left;
+  width: 25%;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.lesson-icon {
+  position: relative;
+  padding-right: 40px;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.image-resize {
+  width: 120%;
+}
+
+.text-contents {
+  width: 110%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+  text-align: center;
+}
+
+/*Bagian Form*/
+.contact-form {
+  font-family: sans-serif;
+  margin-top: 50px;
+  padding-top: 80px;
+  text-align: center;
+  background-color: #dcdcdc;
+}
+
+/* Tambahkan CSS untuk tags <input> dan <textarea> */
+input,
+textarea {
+  width: 700px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #dee7ec;
+}
+
+/* Tambahkan CSS untuk contact-submit */
+.contact-submit {
+  background-color: yellow;
+  color: black;
+  cursor: pointer;
+  opacity: 0.8;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.contact-submit:hover {
+  opacity: 1;
+}
+
+/*Bagian Footer*/
+.footer {
+  background-color: gray;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  font-family: sans-serif;
+}
+
+.footer-logo {
+  float: left;
+  font-size: 32px;
+  letter-spacing: 7px;
+  font-weight: bold;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
